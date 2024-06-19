@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caractere Japonês Aleatório</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div>
+            <label><input type="checkbox" id="hiraganaCheck"> Hiragana</label>
+            <label><input type="checkbox" id="katakanaCheck"> Katakana</label>
+            <button id="startButton" type="reset">Iniciar</button>
+        </div>
+        <div id="character"></div>
+        <input type="text" id="resposta" placeholder="Digite o caractere" autocomplete="off">
+        <button id="checkButton" type="submit">Verificar</button>
+        <p id="resultado"></p>
+        <p id="pontos">Pontuação: 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

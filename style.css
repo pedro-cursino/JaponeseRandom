@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+input {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+button {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+#container {
+    text-align: center;
+}
+
+#character {
+    font-size: 8em;
+    margin-top: 10px;
+}
+
+#resultado {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
